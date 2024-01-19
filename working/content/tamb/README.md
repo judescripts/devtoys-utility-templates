@@ -8,7 +8,8 @@ This is a **T**ailwindCSS, **A**zure, **M**aui **B**lazor (**TAMB**) stack templ
 
 - Install the Nuget Package for DevToys.Tab-Tamb templates
 ```dotnet new install DevToys.TabTamb```
-- Run ``` npm i -D ```
+- Run ``` npm i ```
+- If run-tailwind.ps1/run-tailwind.sh hasn't run manually run the task (vscode), open the Task Runner (visual studio) or the script itself.
 - ``` dotnet watch run ``` (vscode) or ``` F5 ``` run the project (vs)
 
 ## Features
@@ -25,7 +26,10 @@ When opening the project in VS or VScode ./run-tailwind.ps1 task will run automa
 ___
 
 **Project starts with a sample screen utilizing tailwindcss like below**
- ![sample view](./sample_view.png "Sample View")
+Starting resolution currently set at 430 x 932 (iPhone 14 Pro Max)
+You can change the dimensions in App.xaml.cs file in CreateWindow method
+
+![sample view](./sample_view.png "Sample View")
 
 ## Development
 

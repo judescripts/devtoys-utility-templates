@@ -8,8 +8,7 @@ This is a **T**ailwindCSS, **A**zure, **B**lazor (**TAB**) stack template to get
 
 - Install the Nuget Package for DevToys.Tab-Tamb templates
 ```dotnet new install DevToys.TabTamb```
-- Run ``` npm i ```
-- If run-tailwind.ps1/run-tailwind.sh hasn't run manually run the task (vscode), open the Task Runner (visual studio) or the script itself.
+- Run ``` npm i -D ```
 - ``` dotnet watch run ``` (vscode) or ``` F5 ``` run the project (vs)
 
 ## Features

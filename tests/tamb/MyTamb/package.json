@@ -1,20 +1,20 @@
 {
-  "name": "tab",
+  "name": "mytamb",
   "version": "1.0.0",
-  "description": "tab project npm dependencies",
+  "description": "mytamb project npm dependencies",
   "main": "tailwind.config.js",
   "scripts": {
     "watch-run": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
     "dev-run": "powershell -File run-tailwind.ps1"
   },
   "keywords": [
-    "devtoys-tab"
+    "devtoys-mytamb"
   ],
   "author": "<ME>",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.1",
-    "@tailwindcss/forms": "^0.5.7"
+    "@tailwindcss/aspect-ratio": "^0.4.2"
   },
   "-vs-binding": {
     "ProjectOpened": [

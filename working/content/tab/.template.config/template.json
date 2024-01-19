@@ -1,0 +1,13 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "judescripts@gmail.com",
+  "classifications": ["Blazor", "Tab"],
+  "identity": "DevToys.Tab",
+  "name": "DevToys.io templates: TAB template",
+  "shortName": "tab",
+  "sourceName": "tab",
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  }
+}

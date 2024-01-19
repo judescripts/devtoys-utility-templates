@@ -1,14 +1,14 @@
 {
-  "name": "tab",
+  "name": "mytab",
   "version": "1.0.0",
-  "description": "tab project npm dependencies",
+  "description": "mytab project npm dependencies",
   "main": "tailwind.config.js",
   "scripts": {
     "watch-run": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
     "dev-run": "powershell -File run-tailwind.ps1"
   },
   "keywords": [
-    "devtoys-tab"
+    "devtoys-mytab"
   ],
   "author": "<ME>",
   "license": "MIT",
