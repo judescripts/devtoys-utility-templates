@@ -7,7 +7,7 @@
     <Authors>DevToys.io / Jude Lee</Authors>
     <Description>TAB and TAMB stack templates</Description>
     <PackageTags>devtoys-tab;devtoys-tamb;devtoys</PackageTags>
-    <PackageProjectUrl>https://github.com/judescripts/tab_tamb</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/judescripts/devtoys-utilities-templates.git</PackageProjectUrl>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and
     make your template available in dotnet new search.-->
