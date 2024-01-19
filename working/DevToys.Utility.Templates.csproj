@@ -3,11 +3,11 @@
   <PropertyGroup>
     <PackageId>DevToys.Utility.Templates</PackageId>
     <PackageVersion>1.0.2</PackageVersion>
-    <Title>DevToys.io TAB/TAMB Templates</Title>
+    <Title>DevToys.io DotNet Templates</Title>
     <Authors>DevToys.io / Jude Lee</Authors>
-    <Description>TAB and TAMB stack templates</Description>
-    <PackageTags>devtoys-tab;devtoys-tamb;devtoys</PackageTags>
-    <PackageProjectUrl>https://github.com/judescripts/devtoys-utilities-templates.git</PackageProjectUrl>
+    <Description>dotnet new templates for agile development</Description>
+    <PackageTags>devtoys-tab;devtoys-tamb;devtoys;devtoys-dotnet</PackageTags>
+    <PackageProjectUrl>https://github.com/judescripts/devtoys-utility-templates.git</PackageProjectUrl>
 
     <!-- Keep package type as 'Template' to show the package as a template package on nuget.org and
     make your template available in dotnet new search.-->
