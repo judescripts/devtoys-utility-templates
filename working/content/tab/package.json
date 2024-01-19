@@ -1,0 +1,24 @@
+{
+  "name": "tab",
+  "version": "1.0.0",
+  "description": "tab project npm dependencies",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "watch-run": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
+    "dev-run": "powershell -File run-tailwind.ps1"
+  },
+  "keywords": [
+    "devtoys-tab"
+  ],
+  "author": "judescripts@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1",
+    "@tailwindcss/forms": "^0.5.7"
+  },
+  "-vs-binding": {
+    "ProjectOpened": [
+      "dev-run"
+    ]
+  }
+}
