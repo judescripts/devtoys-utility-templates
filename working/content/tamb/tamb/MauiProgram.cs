@@ -1,8 +1,11 @@
 ﻿using System.Reflection;
 using Microsoft.AspNetCore.Components.Authorization;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using tamb.Data;
 
+#pragma warning disable CA1416
 namespace tamb
 {
     public static class MauiProgram
@@ -18,7 +21,11 @@ namespace tamb
                 .UseMauiApp<App>()
                 .ConfigureFonts(fonts => { fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular"); });
             builder.Configuration.AddConfiguration(config);
+            builder.Services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseSqlite(config.GetConnectionString("DefaultConnection"));
 
+            });
             builder.Services.AddMauiBlazorWebView();
             builder.Services.AddAuthorizationCore();
             builder.Services.AddSingleton<AuthenticationStateProvider, ExternalAuthStateProvider>();
@@ -32,3 +39,4 @@ namespace tamb
         }
     }
 }
+#pragma warning restore CA1416

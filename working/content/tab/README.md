@@ -1,7 +1,6 @@
 # [DevToys.io](https://devtoys.io)
 
-## DotNet Tab Stack Template
-
+## DotNet TAB Stack Template
 
 ## Installation
 
@@ -11,7 +10,6 @@ This is a **T**ailwindCSS, **A**zure, **B**lazor (**TAB**) stack template to get
 ```dotnet new install DevToys.TabTamb```
 - Run ``` npm i -D ```
 - ``` dotnet watch run ``` (vscode) or ``` F5 ``` run the project (vs)
-
 
 ## Features
 
@@ -26,10 +24,8 @@ When opening the project in VS or VScode ./run-tailwind.ps1 task will run automa
 | EF Core SQL | <https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/8.0.1> | 8.0.1
 ___
 
-*Project starts with a sample dashboard utilizing tailwindcss like below*
-
-![Dashboard Sample](./sample_dashboard.png "Dashboard Sample")
-
+**Project starts with a sample dashboard utilizing tailwindcss like below**
+ ![Dashboard Sample](./sample_dashboard.png "Dashboard Sample")
 
 ## Development
 
