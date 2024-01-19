@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>DevToys.Utility.Templates</PackageId>
-    <PackageVersion>1.0</PackageVersion>
+    <PackageVersion>1.0.2</PackageVersion>
     <Title>DevToys.io TAB/TAMB Templates</Title>
     <Authors>DevToys.io / Jude Lee</Authors>
     <Description>TAB and TAMB stack templates</Description>
