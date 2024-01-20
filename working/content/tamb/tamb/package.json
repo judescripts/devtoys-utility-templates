@@ -4,8 +4,8 @@
   "description": "TAMB project npm dependencies",
   "main": "tailwind.config.js",
   "scripts": {
-    "watch-run": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
-    "dev-run": "powershell -File run-tailwind.ps1"
+    "watch": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
+    "dev-run": "powershell -ExecutionPolicy Bypass -File run-tailwind.ps1"
   },
   "keywords": [
     "devtoys-TAMB"

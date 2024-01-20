@@ -20,7 +20,7 @@
       "label": "Start Tailwind Watch (Bash)",
       "type": "shell",
       "command": "bash",
-      "args": ["${workspaceFolder}/run-tailwind.ps1"],
+      "args": ["${workspaceFolder}/run-tailwind.sh"],
       "runOptions": {
         // "runOn": "folderOpen"
       },

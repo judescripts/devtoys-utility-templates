@@ -1,11 +1,5 @@
-﻿using System.Reflection;
-using Microsoft.AspNetCore.Components.Authorization;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Logging;
-using MyTamb.Data;
+﻿using Microsoft.Extensions.Logging;
 
-#pragma warning disable CA1416
 namespace MyTamb
 {
     public static class MauiProgram
@@ -13,7 +7,7 @@ namespace MyTamb
         public static MauiApp CreateMauiApp()
         {
             var a = Assembly.GetExecutingAssembly();
-            using var stream = a.GetManifestResourceStream("mytamb.appsettings.json");
+            using var stream = a.GetManifestResourceStream("MyTamb.appsettings.json");
             var config = new ConfigurationBuilder().AddJsonStream(stream!).Build();
 
             var builder = MauiApp.CreateBuilder();
@@ -33,8 +27,8 @@ namespace MyTamb
             builder.Services.AddSingleton<AuthenticationStateProvider, ExternalAuthStateProvider>();
 
 
+
             return builder.Build();
         }
     }
 }
-#pragma warning restore CA1416

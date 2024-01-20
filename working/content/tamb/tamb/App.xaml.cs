@@ -8,7 +8,6 @@
 
             MainPage = new MainPage();
         }
-
         protected override Window CreateWindow(IActivationState? activationState)
         {
             // iPhone 14 Pro Max dimensions

@@ -5,7 +5,6 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using TAMB.Data;
 
-#pragma warning disable CA1416
 namespace TAMB
 {
     public static class MauiProgram
@@ -13,7 +12,7 @@ namespace TAMB
         public static MauiApp CreateMauiApp()
         {
             var a = Assembly.GetExecutingAssembly();
-            using var stream = a.GetManifestResourceStream("tamb.appsettings.json");
+            using var stream = a.GetManifestResourceStream("TAMB.appsettings.json");
             var config = new ConfigurationBuilder().AddJsonStream(stream!).Build();
 
             var builder = MauiApp.CreateBuilder();
@@ -32,13 +31,13 @@ namespace TAMB
             builder.Services.AddAuthorizationCore();
             builder.Services.AddSingleton<AuthenticationStateProvider, ExternalAuthStateProvider>();
 
+
 #if DEBUG
-            builder.Services.AddBlazorWebViewDeveloperTools();
-            builder.Logging.AddDebug();
+    		builder.Services.AddBlazorWebViewDeveloperTools();
+    		builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
         }
     }
 }
-#pragma warning restore CA1416
