@@ -1,7 +1,7 @@
 {
   "$schema": "http://json.schemastore.org/template",
   "author": "judescripts@gmail.com",
-  "classifications": ["Blazor", "Tamb"],
+  "classifications": ["MAUI/Blazor", "Tamb"],
   "identity": "DevToys.Tamb",
   "name": "DevToys.io templates: TAMB template",
   "shortName": "tamb",
@@ -9,5 +9,13 @@
   "tags": {
     "language": "C#",
     "type": "project"
+  },
+  "symbols": {
+    "customName": {
+      "type": "parameter",
+      "replaces": "tamb",
+      "replacementName": "name",
+      "fileRename": "tamb"
+    }
   }
 }

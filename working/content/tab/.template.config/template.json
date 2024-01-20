@@ -9,5 +9,13 @@
   "tags": {
     "language": "C#",
     "type": "project"
+  },
+  "symbols": {
+    "customName": {
+      "type": "parameter",
+      "replaces": "tab",
+      "replacementName": "name",
+      "fileRename": "tab"
+    }
   }
 }

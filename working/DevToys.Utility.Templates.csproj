@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <PackageId>DevToys.Utility.Templates</PackageId>
-    <PackageVersion>1.0.3</PackageVersion>
+    <PackageVersion>1.0.4</PackageVersion>
     <Title>DevToys.io DotNet Templates</Title>
     <Authors>DevToys.io / Jude Lee</Authors>
     <Description>dotnet new templates for agile development</Description>
