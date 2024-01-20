@@ -2,6 +2,9 @@
 
 ```dotnet new``` templates for rapid development of various stacks  
 
+**==Prerequisite==**  
+**Must have dotnet sdk installed** -> [dotnet-sdk](https://dotnet.microsoft.com/en-us/download)  
+
 ## Installation
 
 ``` dotnet new install DevToys.Utility.Templates ```
