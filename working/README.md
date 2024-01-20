@@ -4,5 +4,5 @@
 ```mkdir <your project name>```  
 ```cd <your project name>```  
 ```dotnet new [tab] or [tamb]```  
-```npm install ```  
+```npm install```  
 ```dotnet watch run```

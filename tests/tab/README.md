@@ -1,10 +1,10 @@
 # [DevToys.io](https://devtoys.io)
 
-## DotNet MyTamb Stack Template
+## DotNet MyTab Stack Template
 
 ## Installation
 
-This is a **T**ailwindCSS, **A**zure, **M**aui **B**lazor (**MyTamb**) stack template to get you started on your dev journey fast!
+This is a **T**ailwindCSS, **A**zure, **B**lazor (**MyTab**) stack template to get you started on your dev journey fast!
 
 - Install the Nuget Package for DevToys.Tab-Tamb templates
 ```dotnet new install DevToys.TabTamb```
@@ -21,15 +21,12 @@ You can set the options so opening the project in VS or VScode ./run-tailwind.ps
 | TailwindCss | <https://tailwindcss.com/> | 3.4.1
 | Azure Identity | <https://www.nuget.org/packages/Azure.Identity> | 8.0.1
 | Azure Key Vault | <https://www.nuget.org/packages/Azure.Security.KeyVault.Secrets> | 8.0.1
-| MAUI Blazor (.NET 8) | <https://dotnet.microsoft.com/en-us/apps/maui> | 8.0.1
-| EF Core SQLite | <https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/8.0.1> | 8.0.1
+| Blazor (.NET 8) | <https://dotnet.microsoft.com/en-us/apps/aspnet/web-apps/blazor> | 8.0.1
+| EF Core SQL | <https://www.nuget.org/packages/Microsoft.EntityFrameworkCore/8.0.1> | 8.0.1
 ___
 
-**Project starts with a sample screen utilizing tailwindcss like below**
-Starting resolution currently set at 430 x 932 (iPhone 14 Pro Max)
-You can change the dimensions in App.xaml.cs file in CreateWindow method
-
-![sample view](./sample_view.png "Sample View")
+**Project starts with a sample dashboard utilizing tailwindcss like below**
+ ![Dashboard Sample](./sample_dashboard.png "Dashboard Sample")
 
 ## Development
 
