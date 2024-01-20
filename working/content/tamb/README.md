@@ -2,6 +2,9 @@
 
 ## DotNet TAMB Stack Template
 
+**==Prerequisite==**  
+**Must have dotnet sdk installed** -> [dotnet-sdk](https://dotnet.microsoft.com/en-us/download)  
+
 ## Installation
 
 This is a **T**ailwindCSS, **A**zure, **M**aui **B**lazor (**TAMB**) stack template to get you started on your dev journey fast!

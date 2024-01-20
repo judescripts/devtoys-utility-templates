@@ -1,5 +1,6 @@
-**DevToys.io DotNet TAB/TAMB Stack Templates**  
+# DevToys.io DotNet TAB/TAMB Stack Templates #
 
+**Must have dotnet sdk installed** -> [dotnet-sdk](https://dotnet.microsoft.com/en-us/download)  
 ``` dotnet new install DevToys.Utility.Templates ```  
 ```mkdir <your project name>```  
 ```cd <your project name>```  
