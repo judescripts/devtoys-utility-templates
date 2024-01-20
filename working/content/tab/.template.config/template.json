@@ -5,7 +5,7 @@
   "identity": "DevToys.Tab",
   "name": "DevToys.io templates: TAB template",
   "shortName": "tab",
-  "sourceName": "tab",
+  "sourceName": "TAB",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -13,23 +13,9 @@
   "symbols": {
     "customName": {
       "type": "parameter",
-      "replaces": "tab",
+      "replaces": "TAB",
       "replacementName": "name",
-      "fileRename": "tab"
+      "fileRename": "TAB"
     }
-  },
-  "postActions": [
-    {
-      "actionId": "3E8BCBF0-D631-45BA-B12F-13BFBFC7A534",
-      "description": "Update project name in solution files.",
-      "manualInstructions": [
-        {
-          "text": "Please run 'update-project-name.ps1' in PowerShell to update project name in solution files."
-        }
-      ],
-      "executable": "powershell",
-      "args": "-NoProfile -ExecutionPolicy Bypass -File \"./installation-cleanup.ps1\"",
-      "continueOnError": false
-    }
-  ]
+  }
 }

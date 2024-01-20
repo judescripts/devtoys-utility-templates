@@ -19,7 +19,7 @@
         <!-- For example: <RuntimeIdentifiers>maccatalyst-x64;maccatalyst-arm64</RuntimeIdentifiers> -->
 
         <OutputType>Exe</OutputType>
-        <RootNamespace>tamb</RootNamespace>
+        <RootNamespace>TAMB</RootNamespace>
         <UseMaui>true</UseMaui>
         <SingleProject>true</SingleProject>
         <ImplicitUsings>enable</ImplicitUsings>
@@ -27,10 +27,10 @@
         <Nullable>enable</Nullable>
 
         <!-- Display name -->
-        <ApplicationTitle>tamb</ApplicationTitle>
+        <ApplicationTitle>TAMB</ApplicationTitle>
 
         <!-- App Identifier -->
-        <ApplicationId>com.companyname.tamb</ApplicationId>
+        <ApplicationId>com.companyname.TAMB</ApplicationId>
 
         <!-- Versions -->
         <ApplicationDisplayVersion>1.0</ApplicationDisplayVersion>

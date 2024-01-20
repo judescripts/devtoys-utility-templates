@@ -3,10 +3,10 @@ using Microsoft.AspNetCore.Components.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using mytamb.Data;
+using MyTamb.Data;
 
 #pragma warning disable CA1416
-namespace mytamb
+namespace MyTamb
 {
     public static class MauiProgram
     {

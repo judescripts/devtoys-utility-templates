@@ -1,9 +1,9 @@
 ﻿using System.Security.Claims;
 using Microsoft.AspNetCore.Components.Authorization;
 
-namespace mytamb
+namespace MyTamb
 {
-     public class ExternalAuthStateProvider : AuthenticationStateProvider
+    public class ExternalAuthStateProvider : AuthenticationStateProvider
     {
         private ClaimsPrincipal _currentUser = new(new ClaimsIdentity());
 

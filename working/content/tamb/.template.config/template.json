@@ -5,7 +5,7 @@
   "identity": "DevToys.Tamb",
   "name": "DevToys.io templates: TAMB template",
   "shortName": "tamb",
-  "sourceName": "tamb",
+  "sourceName": "TAMB",
   "tags": {
     "language": "C#",
     "type": "project"
@@ -13,9 +13,9 @@
   "symbols": {
     "customName": {
       "type": "parameter",
-      "replaces": "tamb",
+      "replaces": "TAMB",
       "replacementName": "name",
-      "fileRename": "tamb"
+      "fileRename": "TAMB"
     }
   }
 }

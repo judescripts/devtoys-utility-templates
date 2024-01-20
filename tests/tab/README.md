@@ -1,10 +1,10 @@
 # [DevToys.io](https://devtoys.io)
 
-## DotNet TAB Stack Template
+## DotNet MyTab Stack Template
 
 ## Installation
 
-This is a **T**ailwindCSS, **A**zure, **B**lazor (**TAB**) stack template to get you started on your dev journey fast!
+This is a **T**ailwindCSS, **A**zure, **B**lazor (**MyTab**) stack template to get you started on your dev journey fast!
 
 - Install the Nuget Package for DevToys.Tab-Tamb templates
 ```dotnet new install DevToys.TabTamb```

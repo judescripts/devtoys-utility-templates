@@ -1,4 +1,4 @@
-﻿namespace mytamb
+﻿namespace MyTamb
 {
     public partial class MainPage : ContentPage
     {
