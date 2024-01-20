@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "Start Tailwind Watch",
+      "label": "Start Tailwind Watch (Posh)",
       "type": "shell",
       "command": "PowerShell",
       "args": [
@@ -12,7 +12,17 @@
         "${workspaceFolder}/run-tailwind.ps1"
       ],
       "runOptions": {
-        "runOn": "folderOpen"
+        // "runOn": "folderOpen"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Start Tailwind Watch (Bash)",
+      "type": "shell",
+      "command": "bash",
+      "args": ["${workspaceFolder}/run-tailwind.ps1"],
+      "runOptions": {
+        // "runOn": "folderOpen"
       },
       "problemMatcher": []
     }

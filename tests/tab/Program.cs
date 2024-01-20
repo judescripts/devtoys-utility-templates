@@ -2,7 +2,7 @@ using Azure.Core;
 using Azure.Identity;
 using Azure.Security.KeyVault.Secrets;
 using Microsoft.EntityFrameworkCore;
-using mytab.Components;
+using globeguruweb.Components;
 
 var builder = WebApplication.CreateBuilder(args);
 

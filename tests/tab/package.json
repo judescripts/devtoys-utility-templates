@@ -1,14 +1,14 @@
 {
-  "name": "mytab",
+  "name": "globeguruweb",
   "version": "1.0.0",
-  "description": "mytab project npm dependencies",
+  "description": "globeguruweb project npm dependencies",
   "main": "tailwind.config.js",
   "scripts": {
     "watch-run": "npx tailwindcss -i ./Styles/app.css -o ./wwwroot/css/app.css --watch --minify",
     "dev-run": "powershell -File run-tailwind.ps1"
   },
   "keywords": [
-    "devtoys-mytab"
+    "devtoys-globeguruweb"
   ],
   "author": "<ME>",
   "license": "MIT",
