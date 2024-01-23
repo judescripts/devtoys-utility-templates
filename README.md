@@ -4,7 +4,9 @@
 
 **==Prerequisite==**  
 **Must have dotnet sdk installed** -> [dotnet-sdk](https://dotnet.microsoft.com/en-us/download)  
-**Checkout the tutorial**  
+**Must have Node installed** -> [node](https://nodejs.org/en)
+
+👀 **Checkout the tutorial**  
 [![DevToys YT](https://img.youtube.com/vi/mDnbV9ruiyY/0.jpg)](https://www.youtube.com/watch?v=mDnbV9ruiyY&ab_channel=DevToys)  
 
 ## Installation
