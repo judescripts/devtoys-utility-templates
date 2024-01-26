@@ -30,6 +30,7 @@ namespace TAMB
             // TODO: Update or remove this section depending on your needs
             builder.Services.AddAuthorizationCore();
             builder.Services.AddSingleton<AuthenticationStateProvider, ExternalAuthStateProvider>();
+            builder.Services.AddCascadingAuthenticationState();
 
 
 #if DEBUG
