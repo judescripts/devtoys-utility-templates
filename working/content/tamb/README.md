@@ -42,6 +42,7 @@ You can change the dimensions in App.xaml.cs file in CreateWindow method
 ## Development
 
 Feel free to 🍴 Fork and contribute!
+[https://github.com/judescripts/devtoys-utility-templates](https://github.com/judescripts/devtoys-utility-templates)  
 
 ## License
 
