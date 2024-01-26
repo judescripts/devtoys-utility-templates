@@ -2,6 +2,14 @@
 
 ## DotNet MyTab Stack Template
 
+**==Prerequisite==**  
+**Must have dotnet sdk installed** -> [dotnet-sdk](https://dotnet.microsoft.com/en-us/download)  
+**Must have node installed** -> [Node.js](https://nodejs.org/en)  
+
+👀 **Checkout the tutorial** 
+
+[![DevToys YT](https://img.youtube.com/vi/mDnbV9ruiyY/0.jpg)](https://www.youtube.com/watch?v=mDnbV9ruiyY&ab_channel=DevToys)  
+
 ## Installation
 
 This is a **T**ailwindCSS, **A**zure, **B**lazor (**MyTab**) stack template to get you started on your dev journey fast!
